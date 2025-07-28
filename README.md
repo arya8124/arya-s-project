@@ -1,6 +1,6 @@
 # 🚀 Arya's Project Portfolio
 
-Welcome to my project showcase! This repository contains multiple backend systems built using **Node.js**, **TypeScript**, and **Express**. Each project reflects practical use cases, clean code architecture, and modular development.
+Welcome to my project showcase! This repository includes a collection of real-world backend systems built using **Node.js**, **TypeScript**, and **Express**. Each project demonstrates modular structure, clean code practices, and practical functionality.
 
 ---
 
@@ -8,57 +8,72 @@ Welcome to my project showcase! This repository contains multiple backend system
 
 ### 🔁 1. Crons – Job Scheduler API
 
-Backend to schedule and manage automated tasks using `node-cron`.
+A backend service for managing automated background jobs using cron expressions.
 
 📁 **Path:** [`/crons`](./crons)  
-🧰 **Stack:** Node.js, Express, TypeScript, node-cron
+🧰 **Stack:** Node.js, Express, TypeScript, `node-cron`
 
-#### ✨ Highlights
+**Highlights:**
 - Schedule recurring jobs (hourly, daily, etc.)
-- Custom cron expressions
-- Automates reports, reminders, cleanups, and more
+- Custom cron syntax support
+- Automate tasks like reporting, cleanups, and reminders
 
 ---
 
 ### 🛒 2. Ecommerce-ts – E-commerce Backend API
 
-RESTful API backend for a scalable e-commerce system.
+A RESTful backend system simulating a basic e-commerce platform.
 
 📁 **Path:** [`/ecommerce-ts`](./ecommerce-ts)  
 🧰 **Stack:** Node.js, Express, TypeScript, Sequelize, PostgreSQL
 
-#### ✨ Highlights
-- JWT-based authentication
-- Product, purchase, and review management
-- Secure middleware and structured TypeScript design
+**Highlights:**
+- 🔐 JWT-based authentication
+- 🛍 Product & purchase management
+- ⭐ Ratings, reviews, and middleware security
 
 ---
 
-### ☁️ 3. Clouding – Cloudinary Upload API
+### ☁️ 3. Clouding – Cloud File Uploader API
 
-Express API to upload images and PDFs to **Cloudinary**.
+An API for uploading images and PDFs to **Cloudinary**.
 
 📁 **Path:** [`/clouding`](./clouding)  
 🧰 **Stack:** Node.js, Express, Cloudinary SDK
 
-#### ✨ Highlights
-- Upload and manage cloud-hosted files
-- Centralized Cloudinary config
-- Supports image and document uploads
+**Highlights:**
+- Upload and manage cloud-hosted media
+- Central Cloudinary config setup
+- Supports both image and document uploads
 
 ---
 
-### 📊 4. Excel – Node.js Excel Automation
+### 📊 4. Excel – Excel Automation Tool
 
-Utility scripts for creating and manipulating Excel files.
+A lightweight service to generate and manipulate Excel files.
 
 📁 **Path:** [`/excel`](./excel)  
-🧰 **Stack:** Node.js, xlsx
+🧰 **Stack:** Node.js, `xlsx`
 
-#### ✨ Highlights
-- Generate and update `.xlsx` files
+**Highlights:**
+- Generate `.xlsx` files via scripts
 - Automate Excel-based reports
-- Minimal code, maximum productivity
+- Minimal setup, efficient output
+
+---
+
+### 🔐 5. Auth – Authentication System API
+
+A secure backend authentication system with token-based access and refresh flow.
+
+📁 **Path:** [`/auth`](./auth)  
+🧰 **Stack:** Node.js, Express, TypeScript, JWT, Bcrypt, Sequelize
+
+**Highlights:**
+- Signup & login using JWT access/refresh tokens
+- Secure password hashing via Bcrypt
+- Token refresh and logout flow handled cleanly
+- Sequelize-based User model
 
 ---
 
@@ -66,12 +81,12 @@ Utility scripts for creating and manipulating Excel files.
 
 - **Node.js** + **Express.js**
 - **TypeScript**
-- **Sequelize** ORM + **PostgreSQL**
-- **Cloudinary** SDK
+- **Sequelize ORM** + **PostgreSQL**
+- **Cloudinary SDK**
+- **JWT Authentication** (access + refresh tokens)
+- **Bcrypt** password hashing
 - **node-cron**
 - **xlsx**
-- **JWT** Authentication
-
 ---
 
-> 🔗 This portfolio reflects practical backend solutions — from automation to full-scale APIs.
+> 👨‍💻 This portfolio showcases backend proficiency — from schedulers and secure auth to cloud uploads and report automation.
